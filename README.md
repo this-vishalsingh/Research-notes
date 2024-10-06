@@ -1,6 +1,10 @@
 # Research Notes
 
 - [Topics](#topics)
+- [Lending](#lending)
+  - [Compound](#compound)
+  - [Aave](#aave)
+   - [Euler](#euler)
 - [AMM](#amm)
   - [Uniswap](#uniswap)
   - [Balancer](#balancer)
@@ -12,13 +16,49 @@
   - [General](#general)
   - [Specific](#specific)
 - [L2s](#l2s)
-- [Vyper](#vyper)
+- [ZK](#zk)
+
 
 
 ## Topics
 
 - [Foundry Cheatsheet](/Foundry.md)
 - [OP Stack](/OP%20Stack.md)
+
+## Lending
+General
+- [Lending-Borrowing attacks](https://dacian.me/lending-borrowing-defi-attacks)
+- [Vulnerable spot sof lending protocols](https://mixbytes.io/blog/vulnerable-spots-of-lending-protocols#rec536982058)
+
+### Compound
+
+- [Compound V3 Interest Per Second](https://www.rareskills.io/post/compound-finance-interest-rate-model)
+- [Principal value and Present Value in Compound V3](https://www.rareskills.io/post/defi-interest-rate-indexes)
+- [Collateral, Liquidations, and Reserves in Compound V3](https://www.rareskills.io/post/compound-finance-liquidation)
+- [Compound Whitepaper](https://compound.finance/documents/Compound.Whitepaper.pdf)
+- [Compound Security](https://docs.compound.finance/#security)
+- [Risk Methodology](https://medium.com/gauntlet-networks/improved-var-methodology-9f4f0c4cdb6f)
+
+
+### Aave
+- [Aave V3 Flash Loans](https://docs.aave.com/developers/guides/flash-loans)
+- [Rates Math in Aave V3](https://docs.aave.com/developers/guides/rates-guide)
+- [Collateral, Liquidations, and Reserves in Aave V3](https://docs.aave.com/developers/guides/liquidations)
+- [Compound Whitepaper](https://github.com/aave/aave-v3-core/blob/master/techpaper/Aave_V3_Technical_Paper.pdf)
+- [Compound Security](https://docs.aave.com/developers/deployed-contracts/security-and-audits)
+
+### Euler-v2
+- [Accounting](https://docs.euler.finance/euler-vault-kit-white-paper/#accounting)
+- [Interest Model](https://docs.euler.finance/euler-vault-kit-white-paper/#interest)
+- [Liquidations](https://docs.euler.finance/euler-vault-kit-white-paper/#liquidation)
+- [Price Oracles](https://docs.euler.finance/euler-vault-kit-white-paper/#price-oracles)
+- [EVC Whitepaper](https://github.com/euler-xyz/ethereum-vault-connector/blob/f791f94e6e790dd82041908983b57412dc04fb84/docs/whitepaper.md)
+- [EVK Whitepaper](https://github.com/euler-xyz/euler-vault-kit/blob/f6fd0ee3b454630abd961d6471beb0c7eaf1216a/docs/whitepaper.md)
+- [Security](https://github.com/euler-xyz/ethereum-vault-connector/tree/master/audits)
+- [Risk Management](https://docs.euler.finance/euler-vault-kit-white-paper/#risk-management)
+- [Vault Exchange Rate Manipulation](https://www.euler.finance/blog/exchange-rate-manipulation-in-erc4626-vaults)
+- [ERC-4626 Incompatibilities](https://docs.euler.finance/euler-vault-kit-white-paper/#erc-4626-incompatibilities)
+- [ERC-20 Incompatibilities](https://docs.euler.finance/euler-vault-kit-white-paper/#erc-20-incompatibilities)
 
 ## AMM
 
@@ -29,6 +69,8 @@
 - [Uniswap V3 Whitepaper](https://uniswap.org/whitepaper-v3.pdf)
 - [Uniswap V3 Liquidity Math](https://atiselsts.github.io/pdfs/uniswap-v3-liquidity-math.pdf)
 - [Uniswap V3 TWAP Manipulation](https://chaoslabs.xyz/posts/chaos-labs-uniswap-v3-twap-market-risk#783c9150ebcf)
+- [Uniswap-v2 Book](https://www.rareskills.io/uniswap-v2-book)
+- [Uniswap-v3 Book](https://uniswapv3book.com/)
 
 ### Balancer
 
@@ -96,8 +138,9 @@ Indexers
 - [rollup.codes](https://www.rollup.codes/)
 - [Cross-chain](https://jumpcrypto.com/writing/cross-chain/)
 
-## Vyper
+## ZK
 
-- [Vyper compiler overview](https://jtriley.substack.com/p/the-vyper-compiler)
-- [Finding vulnerable vyper contracts](https://banteg.xyz/posts/vyper-opcodes/)
-- [Vyper compiler audit by Consensys](https://consensys.io/diligence/audits/2019/10/vyper/)
+- [ZK Bug Tracker](https://github.com/0xPARC/zk-bug-tracker)
+- [Least Authority MoonMath](https://github.com/LeastAuthority/moonmath-manual)
+- [zk-book](https://www.rareskills.io/zk-book)
+
