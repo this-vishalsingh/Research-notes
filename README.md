@@ -172,7 +172,7 @@ Indexers
 - [zk-book](https://www.rareskills.io/zk-book)
 
 ## My Audits
-- [reports-refernce](https://audits.sherlock.xyz/watson/thisvishalsingh)
+[My Sherlock Profile & reports](https://audits.sherlock.xyz/watson/thisvishalsingh)
 - InfinityPools(wip)
 - SymbioticFi(wip)
 - Decent-oft4626(wip)
