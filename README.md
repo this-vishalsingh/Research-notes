@@ -21,7 +21,7 @@
   - [Specific](#specific)
 - [L2s](#l2s)
 - [ZK](#zk)
-
+- [My Audits](#my-audits)
 
 
 ## Topics
@@ -171,3 +171,22 @@ Indexers
 - [MoonMath Manual](https://github.com/LeastAuthority/moonmath-manual)
 - [zk-book](https://www.rareskills.io/zk-book)
 
+## My Audits
+- [reports-refernce](https://audits.sherlock.xyz/watson/thisvishalsingh)
+- InfinityPools(wip)
+- SymbioticFi(wip)
+- Decent-oft4626(wip)
+- Li.Fi(wip)
+- Zerolend(wip)
+- Sentiment(wip)
+- Tadle
+- Winnables Raffle
+- LoopFi
+- CCIP
+- OP
+- Arbitrum
+- SizeCredit
+- Radical Exchange
+- Napier
+
+[My cantina Profile](https://cantina.xyz/u/thisvishalsingh)
