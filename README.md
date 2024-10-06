@@ -2,9 +2,13 @@
 
 - [Topics](#topics)
 - [Lending](#lending)
+  - [General](#general)
   - [Compound](#compound)
   - [Aave](#aave)
-   - [Euler](#euler)
+  - [Euler](#euler)
+  - [Sentiment](#sentiment)
+  - [Zerolend](#zerolend)
+  - [SizeCredit](#sizecredit)
 - [AMM](#amm)
   - [Uniswap](#uniswap)
   - [Balancer](#balancer)
@@ -29,6 +33,10 @@
 General
 - [Lending-Borrowing attacks](https://dacian.me/lending-borrowing-defi-attacks)
 - [Vulnerable spot sof lending protocols](https://mixbytes.io/blog/vulnerable-spots-of-lending-protocols#rec536982058)
+- [EIP-4626](https://eips.ethereum.org/EIPS/eip-4626)
+- [Aave bugs](https://github.com/YAcademy-Residents/defi-fork-bugs?tab=readme-ov-file#aave)
+- [Aave Fork bugs](https://github.com/aviggiano/security/blob/main/audit-checklists/Aave-fork.md)
+- [Compound Fork bugs](https://github.com/YAcademy-Residents/defi-fork-bugs?tab=readme-ov-file#compound)
 
 ### Compound
 
@@ -47,7 +55,7 @@ General
 - [Compound Whitepaper](https://github.com/aave/aave-v3-core/blob/master/techpaper/Aave_V3_Technical_Paper.pdf)
 - [Compound Security](https://docs.aave.com/developers/deployed-contracts/security-and-audits)
 
-### Euler-v2
+### Euler
 - [Accounting](https://docs.euler.finance/euler-vault-kit-white-paper/#accounting)
 - [Interest Model](https://docs.euler.finance/euler-vault-kit-white-paper/#interest)
 - [Liquidations](https://docs.euler.finance/euler-vault-kit-white-paper/#liquidation)
@@ -60,21 +68,40 @@ General
 - [ERC-4626 Incompatibilities](https://docs.euler.finance/euler-vault-kit-white-paper/#erc-4626-incompatibilities)
 - [ERC-20 Incompatibilities](https://docs.euler.finance/euler-vault-kit-white-paper/#erc-20-incompatibilities)
 
+### Sentiment
+Sentiment-v2(wip)
+- [Sentiment v3 Interest Rate Model](https://docs.sentiment.xyz/concepts/core-concepts/interest-rate-models)
+- [Security](https://github.com/sentimentxyz/protocol-v2/tree/master/audits)
+- [Risk Management](https://docs.sentiment.xyz/concepts/core-concepts/risk-management)
+
+### Zerolend
+Zerolend One(aave-v3 fork)-(wip)
+- [Security](https://docs.zerolend.xyz/security/audits)
+
+### SizeCredit
+Fixed-rate Lending(wip)
+- [SizeCredit](https://github.com/SizeCredit/size-solidity)
+
 ## AMM
 
 ### Uniswap
 
+- [Uniswap V4 Whitepaper](https://github.com/Uniswap/v4-core/blob/main/docs/whitepaper/whitepaper-v4.pdf)
+- [Uniswap V4 Security](https://github.com/Uniswap/v4-core/tree/main/docs/security/audits)
+- [Uniswap V4 Hooks](https://github.com/Uniswap/v4-core/blob/main/src/libraries/Hooks.sol)
 - [Uniswap V3 Math Part 1](https://blog.uniswap.org/uniswap-v3-math-primer)
 - [Uniswap V3 Math Part 2](https://blog.uniswap.org/uniswap-v3-math-primer-2)
 - [Uniswap V3 Whitepaper](https://uniswap.org/whitepaper-v3.pdf)
 - [Uniswap V3 Liquidity Math](https://atiselsts.github.io/pdfs/uniswap-v3-liquidity-math.pdf)
 - [Uniswap V3 TWAP Manipulation](https://chaoslabs.xyz/posts/chaos-labs-uniswap-v3-twap-market-risk#783c9150ebcf)
-- [Uniswap-v2 Book](https://www.rareskills.io/uniswap-v2-book)
-- [Uniswap-v3 Book](https://uniswapv3book.com/)
+- [Uniswap V2 Book](https://www.rareskills.io/uniswap-v2-book)
+- [Uniswap V3 Book](https://uniswapv3book.com/)
+- [Uniswap V2](https://github.com/YAcademy-Residents/defi-fork-bugs?tab=readme-ov-file#uniswap-v2)
 
 ### Balancer
 
 - [Balancer Weighted Pool Math](https://medium.com/balancer-simulations/understanding-balancer-pools-c2b877dcc082)
+- [Balancer Fork bugs](https://github.com/YAcademy-Residents/defi-fork-bugs?tab=readme-ov-file#balancer)
 
 ## Chainlink
 
@@ -141,6 +168,6 @@ Indexers
 ## ZK
 
 - [ZK Bug Tracker](https://github.com/0xPARC/zk-bug-tracker)
-- [Least Authority MoonMath](https://github.com/LeastAuthority/moonmath-manual)
+- [MoonMath Manual](https://github.com/LeastAuthority/moonmath-manual)
 - [zk-book](https://www.rareskills.io/zk-book)
 
