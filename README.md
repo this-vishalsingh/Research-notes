@@ -19,7 +19,6 @@
 
 - [Foundry Cheatsheet](/Foundry.md)
 - [OP Stack](/OP%20Stack.md)
-- [Blast L2](/Blast.md)
 
 ## AMM
 
