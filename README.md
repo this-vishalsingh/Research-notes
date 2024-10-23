@@ -175,10 +175,9 @@ Indexers
 [My Sherlock Profile & reports](https://audits.sherlock.xyz/watson/thisvishalsingh)
 - InfinityPools(wip)
 - SymbioticFi(wip)
-- Decent-oft4626(wip)
-- Li.Fi(wip)
+- Decent-oft4626(private)
 - Zerolend(wip)
-- Sentiment(wip)
+- Sentiment
 - Tadle
 - Winnables Raffle
 - LoopFi
