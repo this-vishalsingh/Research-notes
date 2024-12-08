@@ -173,8 +173,9 @@ Indexers
 
 ## My Audits
 [My Sherlock Profile & reports](https://audits.sherlock.xyz/watson/thisvishalsingh)
+- Sorella-angstrom
 - InfinityPools(wip)
-- SymbioticFi(wip)
+- SymbioticFi
 - Decent-oft4626(private)
 - Zerolend(wip)
 - Sentiment
